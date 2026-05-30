@@ -1,59 +1,109 @@
-# Calculator
+# 🧮 Calculator
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+Um projeto de calculadora moderna desenvolvida com **TypeScript**, **SCSS** e **HTML**, proporcionando uma experiência de usuário fluida e intuitiva.
 
-## Development server
+## 📋 Visão Geral
 
-To start a local development server, run:
+Este projeto implementa uma calculadora funcional com interface responsiva e moderna. O código é estruturado utilizando as melhores práticas de desenvolvimento web, com componentes bem organizados e fáceis de manter.
 
-```bash
-ng serve
-```
+## 🛠️ Tecnologias Utilizadas
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **TypeScript** (69.8%) - Linguagem principal para lógica e tipagem
+- **SCSS** (18.8%) - Estilos avançados com preprocessador CSS
+- **HTML** (11.4%) - Estrutura semântica da aplicação
 
-## Code scaffolding
+## 🎯 Funcionalidades
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- ✅ Operações básicas (adição, subtração, multiplicação, divisão)
+- ✅ Interface intuitiva e responsiva
+- ✅ Suporte a cálculos encadeados
+- ✅ Design moderno e acessível
 
-```bash
-ng generate component component-name
-```
+## 📦 Instalação
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Pré-requisitos
+- Node.js (v14.0 ou superior)
+- npm ou yarn
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+### Passos
 
 ```bash
-ng build
+# Clonar o repositório
+git clone https://github.com/EduardoDevFull/calculator.git
+
+# Entrar no diretório
+cd calculator
+
+# Instalar dependências
+npm install
+
+# Executar o projeto
+npm start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🚀 Como Usar
 
-## Running unit tests
+1. Abra a aplicação no seu navegador
+2. Digite os números usando o teclado ou clicando nos botões
+3. Selecione a operação desejada
+4. Pressione `=` ou `Enter` para obter o resultado
+5. Use `C` ou `Delete` para limpar a calculadora
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📁 Estrutura do Projeto
+
+```
+calculator/
+├── src/
+│   ├── index.ts          # Arquivo principal TypeScript
+│   └── styles/
+│       └── main.scss     # Estilos da aplicação
+├── index.html            # Estrutura HTML
+├── package.json
+└── README.md
+```
+
+## 🎨 Estilos e Design
+
+O projeto utiliza **SCSS** para melhor organização de estilos, incluindo:
+- Variáveis de cores e tipografia
+- Mixins reutilizáveis
+- Layout responsivo com Flexbox/Grid
+- Animações suaves
+
+## 🧪 Testes
 
 ```bash
-ng test
+# Executar testes (se configurado)
+npm test
 ```
 
-## Running end-to-end tests
+## 🤝 Contribuindo
 
-For end-to-end (e2e) testing, run:
+Contribuições são bem-vindas! Para contribuir:
 
-```bash
-ng e2e
-```
+1. Faça um Fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 📝 Licença
 
-## Additional Resources
+Este projeto está sob a licença [MIT](LICENSE) - veja o arquivo LICENSE para mais detalhes.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 👤 Autor
+
+**Eduardo Dev Full**
+- GitHub: [@EduardoDevFull](https://github.com/EduardoDevFull)
+
+## 🙏 Agradecimentos
+
+Obrigado por usar este projeto! Se tiver dúvidas ou sugestões, não hesite em abrir uma issue.
+
+---
+
+<div align="center">
+
+⭐ Se este projeto foi útil, considere dar uma estrela! ⭐
+
+</div>
