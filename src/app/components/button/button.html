@@ -1,0 +1,4 @@
+<button  mat-raised-button class="calc-btn" (click)="onClick()"
+    [color]="label === '=' ? 'accent' : (label === 'C' || label === 'DEL' ? 'warn' : (isOperator ? 'primary' : 'primary'))">
+    {{ label }}
+</button>

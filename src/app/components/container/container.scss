@@ -1,0 +1,22 @@
+:host {
+	display: flex;
+	justify-content: center;
+	padding: 24px;
+}
+
+.calculator-card {
+	width: 420px;
+	padding: 16px;
+	background: linear-gradient(180deg, #ffffff, #f7f9fc);
+	border-radius: 12px;
+}
+
+mat-grid-list {
+	margin-top: 12px;
+}
+
+@media (max-width: 480px) {
+	.calculator-card {
+		width: 100%;
+	}
+}

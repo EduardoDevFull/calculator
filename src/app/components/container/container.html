@@ -1,0 +1,9 @@
+<mat-card class="calculator-card" appearance="outlined">
+    <app-result [value]="display()"></app-result>
+
+    <mat-grid-list cols="4" rowHeight="72px" gutterSize="8px">
+        <mat-grid-tile *ngFor="let b of buttons">
+            <app-button [label]="b" (press)="onButton($event)"></app-button>
+        </mat-grid-tile>
+    </mat-grid-list>
+</mat-card>

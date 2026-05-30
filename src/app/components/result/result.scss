@@ -1,0 +1,14 @@
+.result-card {
+	padding: 12px 16px;
+	min-height: 84px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.display {
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #12263a;
+	word-break: break-all;
+}
